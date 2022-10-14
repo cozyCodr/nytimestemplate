@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from '../components/Header'
+import {Header, Navbar} from '../components/components'
 
 export default function Home() {
   return (
@@ -10,27 +10,9 @@ export default function Home() {
         <meta name="description" content="nytimes template" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <Header />
+      <Navbar />
 
-      <div className="sticky top-0 bg-white -mx-5">
-          <nav id="bottomheader" className={styles.bottomHeader}>
-            <ul>
-              <li>Home</li>
-              <li>Health</li>
-              <li>Sports</li>
-              <li>Arts</li>
-              <li>Books</li>
-              <li>Travel</li>
-              <li>Magazine</li>
-              <li>T magazine</li>
-              <li>Real Estate</li>
-              <li>Video</li>
-              <li>Science</li>
-            </ul>
-          </nav>
-      </div>
-      
       <main className={styles.mainContainer}>
         <div className={styles.mainContent}>
           <section id="headline" className={styles.sectionSplit}>
