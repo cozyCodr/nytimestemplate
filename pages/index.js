@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {Header, Headline, Navbar, SecondSection} from '../components/components'
+import {Header, Headline, Navbar, NewsPiece, SecondSection} from '../components/components'
 
 export default function Home() {
   return (
@@ -17,23 +17,7 @@ export default function Home() {
         <div className={styles.mainContent}>
           <Headline />
           <SecondSection/> 
-          <section>
-            <div className="articles">
-              <article>
-                <h4>Article Title</h4>
-                <ul>
-                  <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur praesentium sint molestiae nam laborum impedit nostrum pariatur minima adipisci.</li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat non unde ea odit illum saepe ducimus soluta impedit quo adipisci!</li>
-                </ul>
-              </article>
-              <article>
-                <h4>Article title</h4>
-              </article>
-            </div>
-            <div className="article-img">
-              <img src="#"/>
-            </div>
-          </section>
+          <NewsPiece />
         </div>
         <aside className={styles.asideComponent}>
           <article className="pic-top-article">

@@ -8,8 +8,8 @@ const SecondSection = () => {
                 <article className={styles.secondSectionArticleOne}>
                     <h4>Article Title</h4>
                     <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur praesentium sint molestiae nam laborum impedit nostrum pariatur minima adipisci.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat non unde ea odit illum saepe ducimus soluta impedit quo adipisci!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adi.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recimus soluta impedit quo adipisci!</li>
                     </ul>
                 </article>
                 <div className={styles.secondSectionArticleImage}>
@@ -20,7 +20,7 @@ const SecondSection = () => {
                 </div>  
                 <article className={styles.secondSectionArticleTwo}>
                     <h4>Article title</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore laborum mollitia amet totam sint exercitationem unde veritatis aperiam excepturi, voluptate incidunt autem eligendi voluptatum, facere est. Provident suscipit incidunt possimus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore laborum mollitia amet totam sint exercitationem unde veritatis aperiam excepturi, voluptate incidunt autem eligendi.</p>
                 </article>
             </div>
 

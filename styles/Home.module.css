@@ -127,6 +127,25 @@
 }
 /* ********************* Second Section Comp Styles End ******************** */
 
+/* *************** NewsPiece Comp Styles Start ************ */
+.newsPiece {
+  display: flex;
+  padding: 2rem 0;
+}
+.newsPieceArticle {
+  font-size: 14px;
+  width: 30%;
+  margin-right: 1rem;
+}
+.newsPieceArticle h4 {
+  font-weight: 700;
+}
+.newsPieceImage {
+  display: flex;
+  max-width: 70%;
+}
+/* *************** NewsPiece Comp Styles End ************** */
+
 /* *****************  Aside Comp Styles Start ******************** */
 .asideComponent {
   width: 30%;
@@ -145,7 +164,18 @@
 }
 /* **************** Aside Comp Styles End ******************* */
 
-@media (max-width: 710px) {
+@media (max-width: 757px) {
+  .newsPiece {
+    flex-direction: column-reverse;
+  }
+  .newsPieceImage {
+    align-items: center;
+    max-width: 100%;
+  }
+  .newsPieceArticle {
+    padding-top: 1rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
