@@ -1,5 +1,7 @@
 .container {
   padding: 0 2rem;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .mainContainer {
@@ -36,6 +38,8 @@
 }
 
 .bottomHeader {
+  position: sticky;
+  top: 0;
   justify-content: center;
   padding: 8px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -69,6 +73,7 @@
 .articleImg {
   width: 65%;
   padding-right: 1rem;
+  float: right;
 }
 
 .articleTitle {
@@ -111,7 +116,7 @@
   text-align: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 710px) {
 }
 
 @media (max-width: 1002px) {

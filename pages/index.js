@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/Image'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -10,44 +10,29 @@ export default function Home() {
         <meta name="description" content="nytimes template" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className={styles.header}>
-        <div id="top-header" className={styles.topHeader}>
-          <div className={styles.humburgerSearch}>
-            <p>humburger</p>
-            <p>search</p>
-          </div>
-          <div className={styles.subscribeLogin}>
-            <p>subscribe</p>
-            <p>login</p>
-          </div>
-        </div>
-        
-        <div id="middle-header" className={styles.middleHeader}>
-          <div><p>date</p></div>
-          <div>
-            <h1 className={styles.title}>Title</h1>
-          </div>
-          <div><p>weather</p></div>
-        </div>
+      
+      <Header />
 
-        <nav id="bottomheader" className={styles.bottomHeader}>
-          <ul>
-            <li>Home</li>
-            <li>Health</li>
-            <li>Sports</li>
-            <li>Arts</li>
-            <li>Books</li>
-            <li>Travel</li>
-            <li>Magazine</li>
-            <li>T magazine</li>
-            <li>Real Estate</li>
-            <li>Video</li>
-            <li>Science</li>
-          </ul>
-        </nav>
-      </header>
-      <body className={styles.mainContainer}>
-        <main className={styles.mainContent}>
+      <div className="sticky top-0 bg-white -mx-5">
+          <nav id="bottomheader" className={styles.bottomHeader}>
+            <ul>
+              <li>Home</li>
+              <li>Health</li>
+              <li>Sports</li>
+              <li>Arts</li>
+              <li>Books</li>
+              <li>Travel</li>
+              <li>Magazine</li>
+              <li>T magazine</li>
+              <li>Real Estate</li>
+              <li>Video</li>
+              <li>Science</li>
+            </ul>
+          </nav>
+      </div>
+      
+      <main className={styles.mainContainer}>
+        <div className={styles.mainContent}>
           <section id="headline" className={styles.sectionSplit}>
             <div className={styles.articleContainer}>
               <article>
@@ -66,7 +51,7 @@ export default function Home() {
             </div>
             <div className={styles.articleImg}>              
               <figure>
-                <img src="https://via.placeholder.com/600x400" />
+                <img style={{width: "100%", height: "auto"}} src="https://via.placeholder.com/600x400" />
                 <figcaption className={styles.gettyText}>A Ukrainian soldier with a Soviet-style assault rifle in Irpin in March.</figcaption>
               </figure>
             </div>
@@ -123,11 +108,11 @@ export default function Home() {
               <img src="#"/>
             </div>
           </section>
-        </main>
+        </div>
         <aside className={styles.asideComponent}>
           <article className="pic-top-article">
             <figure>
-                <img src="https://via.placeholder.com/330x220" />
+                <img style={{width: "100%", height: "auto"}} src="https://via.placeholder.com/330x220" />
                 <figcaption className={styles.gettyText}>Lorem Ipsum/Getty Images</figcaption>
               </figure>
             <h4 className={styles.asideHeading}>If You Want These Birkenstocks, You May Have to Pay Up</h4>
@@ -171,7 +156,7 @@ export default function Home() {
             <p>7 MIN READ</p>
           </article>
         </aside>
-      </body>
+      </main>
       <footer className={styles.footer}>
         
       </footer>

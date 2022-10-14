@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 a {
   color: inherit;
 }
