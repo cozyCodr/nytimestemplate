@@ -1,3 +1,4 @@
+/* *********************Main Styles *********************** */
 .container {
   padding: 0 2rem;
   height: 100vh;
@@ -8,8 +9,9 @@
   /* min-height: 100vh; */
   display: flex;
 }
+/* ********************** Main Styles End ***************** */
 
-/* ********** Header styles start ****************** */
+/* ********** Header Comp styles start ****************** */
 
 .header {
   display: flex;
@@ -57,12 +59,13 @@
   list-style-type: none;
 }
 
-/* *************** Header Styles End ****************** */
+/* *************** Header Comp Styles End ****************** */
 
+/* ************** Headline Comp Styles Start ********************/
 .sectionSplit {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .articleContainer {
@@ -99,10 +102,35 @@
 .mainContent {
   width: 70%;
 }
+/* ******************* Headline Comp Styles End *********************** */
 
+/* ********************* Second Section Comp Styles Start **************** */
+.secondSection {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  justify-content: space-between;
+}
+.secondSectionArticleOne,
+.secondSectionArticleTwo {
+  width: 30%;
+  font-size: 14px;
+}
+.secondSectionArticleTwo {
+}
+.secondSectionArticleImage {
+  height: auto;
+  width: 40%;
+  padding: 0 1rem;
+  margin: 0 1rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+/* ********************* Second Section Comp Styles End ******************** */
+
+/* *****************  Aside Comp Styles Start ******************** */
 .asideComponent {
   width: 30%;
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 2rem;
   margin-left: 1rem;
 }
@@ -115,11 +143,12 @@
   font-size: 0.6rem;
   text-align: right;
 }
+/* **************** Aside Comp Styles End ******************* */
 
 @media (max-width: 710px) {
 }
 
-@media (max-width: 1002px) {
+@media (max-width: 1200px) {
   .asideComponent {
     width: 0;
     display: none;
