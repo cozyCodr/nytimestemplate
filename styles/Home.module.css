@@ -40,6 +40,13 @@
 }
 .middleHeader {
 }
+.humbergerMenu {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.searchIcon {
+  transform: scaleX(-1);
+}
 .headerButton {
   background-color: #567b95;
   width: 7rem;
@@ -65,7 +72,6 @@
 .bottomHeader ul {
   display: flex;
 }
-
 .bottomHeader ul li {
   font-size: 11px;
   padding: 0 0.7rem;
