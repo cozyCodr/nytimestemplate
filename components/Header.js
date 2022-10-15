@@ -17,11 +17,11 @@ const Header = () => {
             </div>
             
             <div id="middle-header" className={styles.middleHeader}>
-            <div><p>date</p></div>
+            <div><p>15, October, 2022</p></div>
             <div>
-                <h1 className={styles.title}>Title</h1>
+                <h1 className={styles.title}>The Personal Times</h1>
             </div>
-            <div><p >weather</p></div>
+            <div><p >Saturday</p></div>
             </div>
 
         
