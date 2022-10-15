@@ -1,18 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from '../styles/Home.module.css'
 
-
 const Header = () => {
+
     return (
         <header className={styles.header}>
             <div id="top-header" className={styles.topHeader}>
             <div className={styles.humburgerSearch}>
-                <p>humburger</p>
-                <p>search</p>
+                <button className={styles.humbergerMenu}>☰</button>
+                <button className={styles.searchIcon}>🔎︎</button>
             </div>
             <div className={styles.subscribeLogin}>
-                <p>subscribe</p>
-                <p>login</p>
+                <button className={styles.headerButton}>subscribe</button>
+                <button className={styles.headerButton}>login</button>
             </div>
             </div>
             

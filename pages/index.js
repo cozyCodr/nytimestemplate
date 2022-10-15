@@ -17,7 +17,12 @@ export default function Home() {
         <div className={styles.mainContent}>
           <Headline />
           <SecondSection/> 
-          <NewsPiece />
+          <NewsPiece title="‘We Don’t Have Answers’: Raleigh Neighborhood Reels After Fatal Attacks"/>
+          <NewsPiece title="Echoes of Latin American Racism Reverberate in the U.S."/>
+          <NewsPiece title="‘Mexican Week’ Was Not an Accident for ‘The Great British Baking Show’"/>
+          <NewsPiece title="Herschel Walker and Raphael Warnock Grapple Over Abortion and the Economy"/>
+          <NewsPiece title="Donald Trump Has Told Americans Exactly Who He Is"/>
+          <NewsPiece title="The January 6 Hearings Are Over. These 3 Things Must Happen Now."/>
         </div>
         <aside className={styles.asideComponent}>
           <article className="pic-top-article">

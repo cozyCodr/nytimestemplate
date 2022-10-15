@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 
-const NewsPiece = () => {
+const NewsPiece = (props) => {
     return (
         <section className={styles.newsPiece}>
             <div className={styles.newsPieceArticle}>
                 <article>
-                <h4>‘Uncle Xi’ to Exalted Ruler: China’s Leader Embodies His Authoritarian Era</h4>
+                <h4>{props.title}</h4>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur praesentium sint molestiae nam laborum impedit nostrum pariatur minima adipisci.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat non unde ea odit illum saepe ducimus soluta impedit quo adipisci!</li>
